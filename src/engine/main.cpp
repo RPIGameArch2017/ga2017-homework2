@@ -9,9 +9,11 @@
 
 int main(int argc, const char** argv)
 {
-	// Run queue unit tests.
 	extern void ga_vec3f_tests();
 	ga_vec3f_tests();
+
+	extern void ga_mat4f_tests();
+	ga_mat4f_tests();
 
 	return 0;
 }

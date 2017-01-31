@@ -120,7 +120,7 @@ struct ga_vec3f
 	/*
 	** Compute the dot product between this vector and another.
 	*/
-	inline float dot(const ga_vec3f& __restrict b) const \
+	inline float dot(const ga_vec3f& __restrict b) const
 	{
 		// TODO: Homework 2
 		return 0.0f;
@@ -129,7 +129,7 @@ struct ga_vec3f
 	/*
 	** Compute the cross product between two vectors.
 	*/
-	inline ga_vec3f cross(const ga_vec3f& __restrict b)
+	inline ga_vec3f cross(const ga_vec3f& __restrict b) const
 	{
 		// TODO: Homework 2
 		return zero_vector();
